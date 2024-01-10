@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+header{
+    color: white;
+}
+footer{
+    color: white;
+}
+h4{
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
+/* if you want to change specific item then Give an "id" to the item that you want to change | "Change Only 1 item" */
+/* Use "#" + tag{} --> #tag{} */
+#p1{
+    color: red;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color: green;
+}
+/* if you want to change a lot of items in the same time then Give a group of "class" to the item that you want to change | "Change Only more than 1 item" */
+/* Use "." + tag{} ---> .tag{} */
+.odd{
+    color: blue;
+}
+.even{
+    color: tomato;
+}
+.section{
+    text-align: right;
+}

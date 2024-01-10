@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <title>หนังสือรุ่น</title>
+        <style>
+            table,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                background-color: rgb(169, 174, 224);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;"> ---- Please Fill up The Form ----</h1>
+        <form method="post" action="test.php" name="myForm">
+            <table align="center">
+                <tr>
+                    <th colspan="2">ข้อมูลหนังสือรุ่น SU</th>
+                </tr>
+                <tr>
+                    <td>FirstName :</td>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td>LastName :</td>
+                    <td><input type="text" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td>NickName :</td>
+                    <td><input type="text" name="nickname"></td>
+                </tr>
+                <tr>
+                    <td>StudentID :</td>
+                    <td><input type="text" name="stdid"></td>
+                </tr>
+                <tr>
+                    <td>Faculty :</td>
+                    <td><input type="text" name="faculty"></td>
+                </tr>
+                <tr>
+                    <td>Major :</td>
+                    <td>
+                        <select name="major">
+                            <option value="chemistry"> Chemistry </option>
+                            <option value="physic"> Physic </option>
+                            <option value="bio"> Bio </option>
+                            <option value="CS"> CS </option>
+                            <option value="it"> IT </option>
+                            <option value="ds"> DS </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phonenumber :</td>
+                    <td><input type="text" name="phonenumber"></td>
+                </tr>
+                <tr>
+                    <td>Want to say something? :</td>
+                    <td><textarea name="something" row="5" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th><input type="reset" value="Clear Form"></th>
+                    <th><input type="submit" value="ยืนยัน"></th>
+                </tr>
+            </table>    
+        </form>
+    </body>
+</html>

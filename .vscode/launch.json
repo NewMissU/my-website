@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Hantengu_650710550",
+            "request": "launch",
+            "mainClass": "Hantengu_650710550",
+            "projectName": "code_72e5cfe6"
+        },
+        {
+            "type": "java",
+            "name": "IntToChar",
+            "request": "launch",
+            "mainClass": "String.IntToChar",
+            "projectName": "code_72e5cfe6"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenStack",
+            "request": "launch",
+            "mainClass": "OddEvenStack",
+            "projectName": "code_72e5cfe6"
+        },
+        {
+            "type": "java",
+            "name": "BusRoute1",
+            "request": "launch",
+            "mainClass": "Class.BusRoute1",
+            "projectName": "code_72e5cfe6"
+        },
+        {
+            "type": "java",
+            "name": "ArrayJump2",
+            "request": "launch",
+            "mainClass": "ArrayJump2",
+            "projectName": "code_72e5cfe6"
+        },
+        {
+            "type": "java",
+            "name": "ABC",
+            "request": "launch",
+            "mainClass": "String.ABC",
+            "projectName": "code_72e5cfe6"
+        }
+    ]
+}

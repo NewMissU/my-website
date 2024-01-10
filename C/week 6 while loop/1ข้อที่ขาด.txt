@@ -1,0 +1,2 @@
+10. target_max_consec
+11. any_max_consec
